@@ -1,1 +1,68 @@
   
+---
+title: "<ENTER THE TIDBIT TITLE>"
+description: "<ENTER A DESCRIPTION>"
+date: "<ENTER A DATE IN YYYY-MM--DD FORMAT>"
+tags:
+    [
+        { title: "JavaScript" },
+        { title: "WeakMap" },
+        { title: "Data Structure" },
+    ]
+image: "<ENTER A COVER IMAGE URL>"
+author_github_username: "<ENTER YOUR GITHUB USERNAME>"
+---
+
+## Heading 1
+
+This is an **`Example text`** where you can use `quotes` like this and also like this:
+
+> This is a proper quote
+
+
+## Sub Heading 1
+
+Let's create an unordered list:
+
+- Item 1
+- Item 2
+- Item 2
+
+## Sub Heading 2
+
+An HTML document can be written like this:
+
+```html
+<div id="box1">Click Me!</div>
+<div id="box2">Click Me Too!</div>
+```
+
+A JavaScript can be written like this:
+
+```js
+const box1 = document.getElementById("box1");
+const box2 = document.getElementById("box2");
+
+// Create a WeakMap to store click metadata
+const clickTimestamps = new WeakMap();
+
+function handleClick(event) {
+  const element = event.target;
+  const now = new Date();
+
+  clickTimestamps.set(element, now);
+
+  console.log(`Element clicked at: ${clickTimestamps.get(element).toLocaleTimeString()}`);
+}
+
+box1.addEventListener("click", handleClick);
+box2.addEventListener("click", handleClick);
+```
+
+
+
+
+## Want to learn further about Markdown?
+
+Check out this cheatsheet: [Markdown Cheatsheet](https://github.com/atapas/markdown-cheatsheet)
+
