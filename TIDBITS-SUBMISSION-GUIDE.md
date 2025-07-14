@@ -40,7 +40,7 @@ After you have created and submitted the PR, we will review it, and there could 
 - We provide you with  review comments to work on. Once you have taken care of them, we merge the PR
 - We do not merge the PR if we do not align on things.
 
-  ## What happens after we merge the PR?
+## What happens after we merge the PR?
 
-  - Your contributions will become public here: https://www.tapascript.io/tidbits
-  - You will be showcased with your photo as a contributor under the TidBits section here: https://www.tapascript.io/contributors
+- Your contributions will become public here: https://www.tapascript.io/tidbits
+- You will be showcased with your photo as a contributor under the TidBits section here: https://www.tapascript.io/contributors
